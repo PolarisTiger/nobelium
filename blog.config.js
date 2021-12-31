@@ -1,11 +1,11 @@
 const BLOG = {
-  title: 'Polaris',
+  title: 'bkwang 博客',
   author: 'bkwang',
   email: 'bkwang@aliyun.com',
-  link: 'https://bkwang.hello.top',
-  description: 'test page',
+  link: 'https://bkwang.top',
+  description: '前端文章分享',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'light', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#fff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -19,7 +19,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/craigaryhart',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Polaris'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
